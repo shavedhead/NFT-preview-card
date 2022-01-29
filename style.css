@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+
+.main-container {
+  background-color: hsl(216, 50%, 16%);
+  width: 400px;
+  height: 650px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 7.5rem;
+  box-shadow: 20px 30px 8px hsl(215, 62%, 9%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 340px;
+  margin: 0 auto;
+  padding-top: 1.8rem;
+}
+
+.image-container {
+  border-radius: 20px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.header-container {
+  color: hsl(0, 0%, 100%);
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 1.3rem 0 0 0;
+}
+
+.description {
+  font-size: 18px;
+  color: hsla(0, 0%, 100%, 0.405);
+  font-family: "Outfit", sans-serif;
+  line-height: 1.5;
+  padding: 1rem 0;
+}
+
+.eth-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+  padding-bottom: 1rem;
+}
+
+.eth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+}
+
+.eth-image {
+  margin-right: 0.4rem;
+}
+
+.number {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.eth-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsla(0, 0%, 100%, 0.405);
+}
+
+.eth-clock {
+  margin-right: 0.3rem;
+}
+
+.picture {
+  display: flex;
+  align-items: center;
+  padding-top: 1.2rem;
+}
+
+.circle {
+  width: 12%;
+  border: solid 1px hsl(0, 0%, 100%);
+  border-radius: 80%;
+}
+
+.circle-description {
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  margin-left: 1.5rem;
+}
+
+span {
+  color: hsla(0, 0%, 100%, 0.501);
+}
+
+.attribution {
+  display: flex;
+  color: hsl(0, 0%, 100%);
+}
+
+a {
+  color: hsl(178, 100%, 50%);
+}
